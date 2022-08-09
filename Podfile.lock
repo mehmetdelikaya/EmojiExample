@@ -1,0 +1,33 @@
+PODS:
+  - Nuke (8.4.1)
+  - Streamoji (0.1.7):
+    - Nuke (~> 8.4)
+    - SwiftyGif (~> 5.2)
+  - SwiftyGif (5.4.3)
+
+DEPENDENCIES:
+  - Streamoji (from `https://github.com/mehmetdelikaya/Streamoji.git`, branch `main`)
+
+SPEC REPOS:
+  trunk:
+    - Nuke
+    - SwiftyGif
+
+EXTERNAL SOURCES:
+  Streamoji:
+    :branch: main
+    :git: https://github.com/mehmetdelikaya/Streamoji.git
+
+CHECKOUT OPTIONS:
+  Streamoji:
+    :commit: c7571411af9fd0689f8b5e5b321de1f7e368c356
+    :git: https://github.com/mehmetdelikaya/Streamoji.git
+
+SPEC CHECKSUMS:
+  Nuke: d780e3507a86b86c589ab3cc5cd302d5456f06fb
+  Streamoji: 618784450bae58a4fb1655b43160eba115e0824b
+  SwiftyGif: 6c3eafd0ce693cad58bb63d2b2fb9bacb8552780
+
+PODFILE CHECKSUM: 411300303fa3a84e273a234cc7bfe311f5f16f4e
+
+COCOAPODS: 1.11.2
